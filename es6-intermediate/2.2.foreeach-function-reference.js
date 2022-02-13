@@ -1,0 +1,12 @@
+"use strict"
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let total = 0;
+
+function adder(item) {
+    total += item;
+}
+
+numbers.forEach(adder); // function reference
+
+console.log(total);
